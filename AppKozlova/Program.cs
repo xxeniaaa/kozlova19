@@ -11,11 +11,11 @@ namespace AppKozlova
     {
         static void Main(string[] args)
         {
-            Team team = new Team("IT Top", " г. Москва, Кутузовский просп., 36, стр. 2");
-            team.Players.Add(new Player("Комаров Марк Миронович", ""));
-            team.Players.Add(new Player("Кондратьев Лев Глебович", ""));
-            team.Players.Add(new Player("Спиридонова Есения Алексеевна", ""));
-            team.Players.Add(new Player("Евдокимова Надежда Кирилловна", ""));
+            Team team = new Team("Звезда", "115280, г. Москва, Автозаводская ул., 23А");
+            team.Players.Add(new Player("Комаров Марк Миронович", "Центральный нападающий"));
+            team.Players.Add(new Player("Кондратьев Лев Глебович", "Левый защитник"));
+            team.Players.Add(new Player("Герасимов Иван Дмитриевич", "Правый защитник"));
+            team.Players.Add(new Player("Никитин Арсений Макарович", "Вратарь"));
             team.ShowAll();
             Console.ReadKey();
         }
