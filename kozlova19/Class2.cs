@@ -20,5 +20,9 @@ namespace kozlova19
             Console.WriteLine(
                  $"Название: {Name}, Описание - {Description}");
         }
+        public int CompareTo(Player? other)
+        {
+            return Name.CompareTo(other.Name);
+        }
     }
 }
