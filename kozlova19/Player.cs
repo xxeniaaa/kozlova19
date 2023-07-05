@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kozlova19
 {
-    public class Player
+    public class Player: IComparable<Player>
     {
         public string Name { get; set; }
         public string Description { get; set; }
