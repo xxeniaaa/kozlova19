@@ -19,7 +19,7 @@ namespace kozlova19
             Console.WriteLine($"Команда: Название - {Name}, Адрес - {Address}");
             Console.WriteLine("Состав команды:");
             Players.Sort();
-            foreach (Player players in Player)
+            foreach (Player players in Players)
             {
                 players.Show();
             }
